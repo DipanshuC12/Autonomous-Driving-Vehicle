@@ -1,0 +1,16 @@
+# --- Jupyter Notebook Junk ---
+.ipynb_checkpoints/
+
+# --- Build/Output Folders (The heavy stuff) ---
+# This matches the folder seen in your logs
+Default Windows desktop 64-bit_Data/
+
+# --- Common Generated Files ---
+# Ignore compiled python files
+__pycache__/
+*.pyc
+
+# Ignore executables and logs
+*.exe
+*.dll
+*.log
