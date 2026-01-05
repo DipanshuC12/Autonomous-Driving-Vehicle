@@ -51,7 +51,7 @@ def balanceData(data, display=True):
 def loadData(path, data):
     imagesPath = []
     steering = []
-    # AGGRESSIVE CORRECTION to ensure turns are learned
+    # CORRECTION to ensure turns are learned
     correction = 0.5 
 
     for i in range(len(data)):

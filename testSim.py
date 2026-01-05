@@ -34,7 +34,7 @@ model = load_model('model.h5', compile=False)
 # ================= CONFIGURATION =================
 # If the car understeers (hits outside wall), INCREASE this.
 # If the car wobbles/oversteers (hits inside wall), DECREASE this.
-STEERING_SENSITIVITY = 2.0 
+STEERING_SENSITIVITY = 1.5
 
 MAX_SPEED = 20
 TURN_SPEED = 8
