@@ -18,6 +18,7 @@ Cruising: 28 MPH on straights.
 Cornering: Automatically brakes to 9 MPH for sharp turns.
 
 Hill Climb Assist: Boosts throttle on steep inclines (Jungle Track).
+
 ⚙️ Methodology
 1. Data Collection & "Recovery" Strategy
 Instead of just driving perfectly, the dataset was built using specific drills:
@@ -44,6 +45,7 @@ YUV Color Space: Used by NVIDIA for better lane feature detection.
 Cropping: Removed the top 60px (sky/trees) and bottom 25px (car hood).
 
 Blurring: Gaussian Blur (3x3) to remove noise.
+
 🚀 How to Run
 Prerequisites
 Python 3.x
@@ -55,5 +57,6 @@ OpenCV (cv2)
 SocketIO / Flask (for the simulator connection)
 
 Udacity Self-Driving Car Simulator
+
 📝 Credits
 Based on the behavioral cloning concepts from the Udacity Self-Driving Car Nanodegree. Enhanced with custom augmentation and control logic.
