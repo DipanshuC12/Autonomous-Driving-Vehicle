@@ -2,6 +2,7 @@ End-to-End Self-Driving Car (Behavioral Cloning)
 A deep learning project that teaches a car to drive autonomously on a virtual track using behavioral cloning techniques.
 
 This project uses a Convolutional Neural Network (CNN) based on the NVIDIA architecture to predict steering angles from raw camera images. The system features a robust Universal Controller capable of handling sharp turns, shadows, and high-speed driving (up to 28 MPH) with active braking logic.
+
 🌟 Key Features
 NVIDIA CNN Architecture: A powerful 9-layer network optimized for self-driving tasks.
 
@@ -59,4 +60,5 @@ SocketIO / Flask (for the simulator connection)
 Udacity Self-Driving Car Simulator
 
 📝 Credits
+
 Based on the behavioral cloning concepts from the Udacity Self-Driving Car Nanodegree. Enhanced with custom augmentation and control logic.
