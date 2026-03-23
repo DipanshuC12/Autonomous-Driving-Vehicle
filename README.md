@@ -32,8 +32,6 @@ Corner Saves: Driving toward a wall and recording the sharp correction back to t
 
 2. Preprocessing
 Every image passes through a pipeline before entering the model:
-2. Preprocessing
-Every image passes through a pipeline before entering the model:
 
 YUV Color Space: Used by NVIDIA for better lane feature detection.
 
